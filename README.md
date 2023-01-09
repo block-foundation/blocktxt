@@ -1,6 +1,6 @@
 <header>
   <p align="center">
-    <img src=".github/images/geoid-logo_light.png" width="20%" height="20%" alt="Geoid Logo">
+    <img src=".github/images/blockfoundation-logo_light.png" width="20%" height="20%" alt="Block Foundation Logo">
   </p>
   <h1 align='center' style='border-bottom: none;'>block.txt</h1>
   <h3 align='center'>A well-known .txt file for blockchain addresses.</h3>
@@ -45,7 +45,7 @@
 
 ## About
 
-**`block.txt`** is a proposed standard which allows spatially enabled websites and applications to communicate their location.
+...
 
 
 ## Quick Start
@@ -109,12 +109,11 @@ The **`block.txt`** file must be served over HTTPS.
 
 ## Authors
 
-**`block.txt`** is an open-source project by **[Geoid](https://www.geoid.org "Geoid website")**.
+**`block.txt`** is an open-source project by the **[Block Foundation](https://www.blockfoundation.io "Block Foundation website")**.
 
-**Geoid is a spatial operating system that covers our entire planet with an extended intelligent dimension.**
-This self-organizing network bridges our virtual and physical environments and is formed by all the people of our planet and the information and communication technologies that connect them. Geoid functions as a nervous system that mediates the data we produce and use in our daily lives, adds value to interconnectivity and cherishes spontaneous connections between people and the places and things they love.
+The Block Foundation mission is enabling architects to take back initiative and contribute in solving the mismatch in housing through blockchain technology. Therefore the Block Foundation seeks to unschackle the traditional constraints and construct middle ground between rent and the rigidity of traditional mortgages.
 
-website: [www.geoid.org](https://www.geoid.org "Geoid website")
+website: [www.blockfoundation.io](https://www.blockfoundation.io "Block Foundation website")
 
 
 ## Contributing
