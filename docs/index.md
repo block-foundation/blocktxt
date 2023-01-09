@@ -1,16 +1,16 @@
 <header>
 <p align="center">
-    <img src="assets/image/blocktxt_logo_dark.png" width="20%" height="20%" alt="block.txt Logo">
+    <img src="assets/image/blockfoundation_logo_dark.png" width="20%" height="20%" alt="Block Foundation Logo">
 </p>
 <h1 align='center' style='border-bottom: none;'>block.txt</h1>
-<h3 align='center'>A .txt file for a blockchain</h3>
+<h3 align='center'>A well-known .txt file for blockchain addresses.</h3>
 </header>
 <br/>
 
 
 ---
 
-
+A well-known .txt file for blockchain addresses.
 
 ---
 
