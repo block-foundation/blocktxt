@@ -1,10 +1,11 @@
-<header>
-  <p align="center">
-    <img src=".github/images/blockfoundation-logo_light.png" width="20%" height="20%" alt="Block Foundation Logo">
-  </p>
-  <h1 align='center' style='border-bottom: none;'>block.txt</h1>
-  <h3 align='center'>A well-known .txt file for blockchain addresses.</h3>
-</header>
+<p align="center">
+    <img src="https://block-foundation.github.io/.assets/image/logo/block_foundation-logo-02.png" width="20%" height="20%" alt="Block Foundation Logo">
+</p>
+<h1 align='center' style='border-bottom: none;'>block.txt</h1>
+<h3 align='center'>A well-known .txt file for blockchain addresses.</h3>
+
+
+
 <br/>
 <div align="center">
   <a href="https://github.com/block-foundation/block-txt/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Abug-suspected&template=bug_report.yml">Report a Bug</a>
