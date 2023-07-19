@@ -42,7 +42,7 @@ Passwords are required for all accounts and are regularly rotated.
 Where possible, Two-factor Authentication is also required for all accounts.
 
 2. **Vulnerability Reporting** \
-We have a vulnerability reporting procedure in place, please see the: 
+We have a vulnerability reporting procedure in place, please see the:
 ['Vulnerability Reporting'](#vulnerability-reporting) section in this document.
 
 3. **Third-Party Code** \
@@ -105,42 +105,40 @@ surface, if there is one.
 to produce the vulnerability.
 
 
-## Public Disclosure Process 
+## Public Disclosure Process
 
-We very much appreciate your efforts to improve the security of our open source 
-software and responsible disclosure and will make every effort to acknowledge 
-your contributions. 
+We very much appreciate your efforts to improve the security of our open source
+software and responsible disclosure and will make every effort to acknowledge
+your contributions.
 
-
-We will investigate all reports and you will receive a response from the lead 
+We will investigate all reports and you will receive a response from the lead
 maintainer as soon as possible, indicating the next steps in handling your report.
-If the issue is confirmed, we will release a patch as soon as possible, 
+If the issue is confirmed, we will release a patch as soon as possible,
 depending on complexity but historically within a few days.
-After the initial reply to your report, the Security Team will endeavor 
-to keep you informed of the progress towards a fix and full announcement, 
+After the initial reply to your report, the Security Team will endeavor
+to keep you informed of the progress towards a fix and full announcement,
 and may ask for additional information or guidance.
-
 
 ## Patch and Release Process
 
-When the Security Team receives a security vulnerability report, they will 
-assign it to a primary handler. This person will coordinate the patch and 
+When the Security Team receives a security vulnerability report, they will
+assign it to a primary handler. This person will coordinate the patch and
 release process, involving the following steps:
 
 1. The Security Team will investigate the vulnerability and confirm the problem.
-2. If the issue is not deemed to be a vulnerability, the Security Team will 
-disclose a detailed reason for rejection, and initiate a conversation with the 
+2. If the issue is not deemed to be a vulnerability, the Security Team will
+disclose a detailed reason for rejection, and initiate a conversation with the
 reporter as soon as possible.
-3. Determine the effects and criticality of the vulnerability and determine the 
+3. Determine the effects and criticality of the vulnerability and determine the
 affected versions.
-4. If a vulnerability is acknowledged, the effects and criticality and affected 
+4. If a vulnerability is acknowledged, the effects and criticality and affected
 versions of the vulnerability are determine.
-5. The timeline for a fix is determined, the Security Team will work on a plan 
-to communicate with the appropriate community members, including identifying 
-mitigating steps that affected users can take to protect themselves until the 
+5. The timeline for a fix is determined, the Security Team will work on a plan
+to communicate with the appropriate community members, including identifying
+mitigating steps that affected users can take to protect themselves until the
 fix is rolled out.
-6. The Security Team will work on fixing the vulnerability for all releases 
-still under maintenance, and perform internal testing before preparing to roll 
+6. The Security Team will work on fixing the vulnerability for all releases
+still under maintenance, and perform internal testing before preparing to roll
 out the fixes.
-7. Once the fix is confirmed, the Security Team will patch the vulnerability in 
+7. Once the fix is confirmed, the Security Team will patch the vulnerability in
 the next patch or minor release.
