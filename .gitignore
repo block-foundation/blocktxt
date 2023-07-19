@@ -1,2 +1,14 @@
+# Block Foundation .gitignore
+# v0.0.1
+
+# General
 .DS_Store
-.env
+
+# Node
+node_modules/
+
+
+# C
+*.o
+*.so
+*.bin
