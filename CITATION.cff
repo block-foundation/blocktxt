@@ -2,9 +2,9 @@ cff-version: 1.2.0
 title: block.txt
 version: 0.0.1
 date-released: 2023-01-01
-url: "https://github.com/block-foundation/block-txt"
+url: "https://github.com/block-foundation/blocktxt"
 message: >-
-  If you use blocktxt, please cite it using
+  If you use block.txt, please cite it using
   the metadata from this file.
 type: software
 authors:
