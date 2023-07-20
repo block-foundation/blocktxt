@@ -42,6 +42,39 @@
 
 </details>
 
+## About
+
+`block.txt` provides data about the blockchain activities associated with a website. This includes addresses for receiving payments or donations, smart contract addresses related to the site's services, or addresses related to any other blockchain activities.
+
+## Example
+
+``` yml
+
+---
+
+# block.txt example
+
+contact:
+
+    name: Block Foundation
+    website: https://www.blockfoundation.io
+    email: info@blockfoundation.io
+
+accounts:
+
+    -
+        name: Ethereum account
+        description: Block Foundation Donation Account
+        blockchain: ETH
+        address: 0x71C7656EC7ab88b098defB751B7401B5f6d8976F
+
+    -
+        name: Bitcoin account
+        description: Block Foundation Reserve Account
+        blockchain: BTC
+        address: 3FZbgi29cpjq2GjdwV8eyHuJJnkLtktZc5
+```
+
 ## Quick Start
 
 ### 1. Create
