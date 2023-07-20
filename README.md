@@ -46,7 +46,9 @@
 
 `block.txt` provides data about the blockchain activities associated with a website. This includes addresses for receiving payments or donations, smart contract addresses related to the site's services, or addresses related to any other blockchain activities.
 
-## Example
+block.txt follows the [YAML](https://yaml.org/) syntax.
+
+### Example
 
 ``` yml
 
@@ -140,7 +142,9 @@ The **`block.txt`** file should have an Internet Media Type of `text/plain`.
 
 The **`block.txt`** file must be served over HTTPS.
 
-## Authors
+## Development
+
+### Authors
 
 **`block.txt`** is an open-source project by the **[Block Foundation](https://www.blockfoundation.io "Block Foundation website")**.
 
@@ -148,15 +152,19 @@ The Block Foundation mission is enabling architects to take back initiative and 
 
 website: [www.blockfoundation.io](https://www.blockfoundation.io "Block Foundation website")
 
-## Contributing
+### Contributing
 
 We'd love for you to contribute and to make **`block.txt`** even better than it is today!
 Please refer to the [contribution guidelines](.github/CONTRIBUTING.md) for information.
 
-## License
+## Legal
+
+Please note that if you're implementing block.txt, it would be important to consider the security and privacy of the included addresses. In many cases, blockchain transactions are transparent and can be traced, so putting an address on a public website might expose information about the transactions and balances associated with that address.
+
+### License
 
 Except where otherwise noted, **`block.txt`** by Geoid is licensed under the terms of the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/ "Creative Commons Attribution-ShareAlike 4.0 International License"). To view a copy of this license, visit [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/ "Creative Commons Attribution-ShareAlike 4.0 International License") or write to Creative Commons, 171 Second Street, Suite 300, San Francisco, CA 94105, USA.
 
-## Disclaimer
+### Disclaimer
 
 **THIS SOFTWARE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
