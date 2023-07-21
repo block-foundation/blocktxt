@@ -16,7 +16,7 @@
 ---
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/block-foundation/blocktxt/master/res/logo.svg" width="20%" height="20%" alt="blocktxt Logo">
+    <img src="https://raw.githubusercontent.com/block-foundation/blocktxt/master/res/logo.svg" width="25%" height="205%" alt="blocktxt Logo">
 </p>
 
 <div align="center">
