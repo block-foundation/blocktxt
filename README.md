@@ -2,9 +2,10 @@
 
   [![license](https://img.shields.io/github/license/block-foundation/blocktxt?color=green&label=license&style=flat-square)](LICENSE.md)
   [![website](https://img.shields.io/website?color=blue&down_color=red&down_message=offline&label=website&style=flat-square&up_color=green&up_message=online&url=https%3A%2F%2Fwww.blocktxt.org)](https://www.blocktxt.org)
-  ![contributors](https://img.shields.io/github/contributors/block-foundation/blocktxt?color=blue&label=contributors&style=flat-square)
 
 </div>
+
+---
 
 <div>
     <img align="right" src="https://raw.githubusercontent.com/block-foundation/brand/master/logo/logo_gray.png" width="96" alt="Block Foundation Logo">
