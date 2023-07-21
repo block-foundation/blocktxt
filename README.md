@@ -2,8 +2,6 @@
 
   [![license](https://img.shields.io/github/license/block-foundation/blocktxt?color=green&label=license&style=flat-square)](LICENSE.md)
   [![website](https://img.shields.io/website?color=blue&down_color=red&down_message=offline&label=website&style=flat-square&up_color=green&up_message=online&url=https%3A%2F%2Fwww.blocktxt.org)](https://www.blocktxt.org)
-  ![stars](https://img.shields.io/github/stars/block-foundation/blocktxt?color=blue&label=stars&style=flat-square)
-  ![sponsors](https://img.shields.io/github/sponsors/geoid-org?color=blue&label=sponsors&style=flat-square)
   ![contributors](https://img.shields.io/github/contributors/block-foundation/blocktxt?color=blue&label=contributors&style=flat-square)
 
 </div>
@@ -13,7 +11,6 @@
     <h1 align="left">block.txt</h1>
     <h3 align="left">A well-known .txt file for blockchain addresses</h3>
 </div>
-<br>
 
 ---
 
