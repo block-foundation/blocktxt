@@ -10,10 +10,14 @@
 <div>
     <img align="right" src="https://raw.githubusercontent.com/block-foundation/brand/master/logo/logo_gray.png" width="96" alt="Block Foundation Logo">
     <h1 align="left">block.txt</h1>
-    <h3 align="left">A well-known .txt file for blockchain addresses</h3>
+    <h3 align="left">A well-known .txt file for blockchain address identification</h3>
 </div>
 
 ---
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/block-foundation/blocktxt/master/res/logo.svg" width="20%" height="20%" alt="blocktxt Logo">
+</p>
 
 <div align="center">
   <a href="https://github.com/block-foundation/blocktxt/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Abug-suspected&template=bug_report.yml">Report a Bug</a>
@@ -92,7 +96,7 @@ Make sure that the **`block.txt`** file is UTF-8 encoded to avoid issues with sp
 
 #### 2.1. well-known Directory
 
-In principle, the **`block.txt`** file should be placed under the `/.well-known/` path of your website. For example:
+In principle, the **`block.txt`** file should be placed under the `/.well-known/` path of your website [[rfc8615](https://datatracker.ietf.org/doc/html/rfc8615)]. For example:
 
 ``` bash
 https://example.com/.well-known/block.txt
@@ -139,6 +143,23 @@ The **`block.txt`** file should have an Internet Media Type of `text/plain`.
 #### 4.2. Protocol
 
 The **`block.txt`** file must be served over HTTPS.
+
+## Logo
+
+You can download the official **`block.txt`** logos and include them in your own online projects.
+We encourage placing the logo in the footer, and don’t forget to add a link to your **`block.txt`** file!
+
+> For example:
+
+``` html
+<a href="/well-known/block.txt"><img src="/assets/image/blocktxt_logo.png"></a>
+```
+
+For the full list of of official **`block.txt`** logos, see the table below:
+
+|   |   |   |   |
+|---|---|---|---|
+|   |   |   |   |
 
 ## Development
 
