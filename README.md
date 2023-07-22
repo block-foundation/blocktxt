@@ -180,9 +180,17 @@ Please refer to the [contribution guidelines](.github/CONTRIBUTING.md) for infor
 
 Please note that if you're implementing block.txt, it would be important to consider the security and privacy of the included addresses. In many cases, blockchain transactions are transparent and can be traced, so putting an address on a public website might expose information about the transactions and balances associated with that address.
 
+### Copyright
+
+Copyright 2023, [Block Foundation Community Authors](https://github.com/block-foundation/community/blob/master/AUTHORS).
+
 ### License
 
-Except where otherwise noted, **`block.txt`** by Geoid is licensed under the terms of the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/ "Creative Commons Attribution-ShareAlike 4.0 International License"). To view a copy of this license, visit [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/ "Creative Commons Attribution-ShareAlike 4.0 International License") or write to Creative Commons, 171 Second Street, Suite 300, San Francisco, CA 94105, USA.
+Except as otherwise noted, the content in this repository is licensed under the
+[Creative Commons Attribution 4.0 International (CC BY 4.0) License](https://creativecommons.org/licenses/by/4.0/), and
+code samples are licensed under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0).
+
+Also see [LICENSE](https://github.com/block-foundation/community/blob/master/LICENSE) and [LICENSE-CODE](https://github.com/block-foundation/community/blob/master/LICENSE-CODE).
 
 ### Disclaimer
 
