@@ -8,7 +8,7 @@
 ---
 
 <div>
-    <img align="right" src="https://raw.githubusercontent.com/block-foundation/brand/master/logo/logo_gray.png" width="96" alt="Block Foundation Logo">
+    <img align="right" src="https://raw.githubusercontent.com/block-foundation/brand/master/src/logo/logo_gray.png" width="96" alt="Block Foundation Logo">
     <h1 align="left">block.txt</h1>
     <h3 align="left">A well-known .txt file for blockchain address identification</h3>
 </div>
@@ -44,9 +44,16 @@
 
 </details>
 
-## About
+## Introduction
 
-`block.txt` provides data about the blockchain activities associated with a website. This includes addresses for receiving payments or donations, smart contract addresses related to the site's services, or addresses related to any other blockchain activities.
+The block.txt project, initiated by the Block Foundation, presents a revolutionary and standardized approach to sharing blockchain-related information associated with a website. By providing a structured, machine-readable format, the project opens doors for numerous applications in the ever-growing blockchain ecosystem.
+
+As blockchain technology permeates into various sectors, the need for a standardized way to identify and share blockchain addresses on websites has become increasingly apparent. Websites involved in blockchain activities such as accepting digital payments, donations, or operating smart contracts often need to publicly declare their blockchain addresses. The block.txt project answers this call by providing a YAML-based format that outlines crucial information about a site's blockchain activities, in a way that's both human and machine-friendly.
+
+Whether you're a blockchain explorer trying to track down an address, a wallet software that needs to integrate a site's donation address, or a user curious about the blockchain activities of a site, block.txt aims to be the go-to solution. Furthermore, the project takes into consideration important aspects such as security, privacy, and standard web protocols to ensure a safe and seamless experience.
+
+Backed by the reputable Block Foundation and maintained by a community of open-source contributors, block.txt promises to be a significant step towards a more interconnected and accessible blockchain web. We invite you to be a part of this exciting journey.
+
 
 block.txt follows the [YAML](https://yaml.org/) syntax.
 
@@ -176,19 +183,19 @@ website: [www.blockfoundation.io](https://www.blockfoundation.io "Block Foundati
 We'd love for you to contribute and to make **`block.txt`** even better than it is today!
 Please refer to the [contribution guidelines](.github/CONTRIBUTING.md) for information.
 
-## Legal
+## Legal Information
 
 Please note that if you're implementing block.txt, it would be important to consider the security and privacy of the included addresses. In many cases, blockchain transactions are transparent and can be traced, so putting an address on a public website might expose information about the transactions and balances associated with that address.
 
 ### Copyright
 
-Copyright 2023, [Block Foundation Community Authors](https://github.com/block-foundation/community/blob/master/AUTHORS).
+Copyright &copy; 2023 [Block Foundation](https://www.blockfoundation.io/ "Block Foundation website"). All Rights Reserved.
 
 ### License
 
 Except as otherwise noted, the content in this repository is licensed under the
 [Creative Commons Attribution 4.0 International (CC BY 4.0) License](https://creativecommons.org/licenses/by/4.0/), and
-code samples are licensed under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0).
+code samples are licensed under the [MIT License](https://opensource.org/license/mit/).
 
 Also see [LICENSE](https://github.com/block-foundation/community/blob/master/LICENSE) and [LICENSE-CODE](https://github.com/block-foundation/community/blob/master/LICENSE-CODE).
 
