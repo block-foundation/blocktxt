@@ -16,7 +16,7 @@
 ---
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/block-foundation/blocktxt/master/res/logo.svg" width="25%" alt="blocktxt Logo">
+    <img src="https://raw.githubusercontent.com/block-foundation/blocktxt/master/res/logotype/blocktxt-logotype-transparant-blue.svg" width="33%" alt="blocktxt Logo">
 </p>
 
 <div align="center">
@@ -32,7 +32,7 @@
 </div>
 <br/>
 
-<br/>
+
 <details open="open">
 <summary>Table of Contents</summary>
 
