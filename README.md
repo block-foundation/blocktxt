@@ -63,27 +63,97 @@ block.txt follows the [YAML](https://yaml.org/) syntax.
 
 ---
 
-# block.txt example
+# block.txt
 
 contact:
+    name: Your Organization Name
+    website: https://yourwebsite.com
+    email: contact@yourwebsite.com
+    socials: 
+        twitter: yourTwitterHandle
+        linkedin: yourLinkedInProfile
+        github: yourGithubProfile
 
-    name: Block Foundation
-    website: https://www.blockfoundation.io
-    email: info@blockfoundation.io
+additionalContacts:
+    - 
+        name: Additional Contact Name
+        role: Role in the organization
+        email: additionalcontact@yourwebsite.com
+        phone: +1-234-567-8901
+
+emergencyContacts:
+    - 
+        name: Emergency Contact Name
+        email: emergencycontact@yourwebsite.com
+        phone: +1-123-456-7890
 
 accounts:
-
     -
-        name: Ethereum account
-        description: Block Foundation Donation Account
+        name: Main Ethereum account
+        description: Main Account for Ethereum Transactions
         blockchain: ETH
-        address: 
+        network: Mainnet
+        address: 0xYourEthereumAddress
+        verification: https://link-to-proof-of-ownership
+        tags:
+          - donations
+          - main
+        operators: 
+          - Operator Name
+        purpose: Accepting Donations
+        created: YYYY-MM-DD
+        active: true
+        multisig: false
+        security: Medium
+        extraNotes: Extra information about the account
+        archived: false
 
     -
-        name: Bitcoin account
-        description: Block Foundation Reserve Account
+        name: Bitcoin Donation account
+        description: Bitcoin Donation Account
         blockchain: BTC
-        address: 
+        network: Mainnet
+        address: YourBitcoinAddress
+        verification: https://link-to-proof-of-ownership
+        tags:
+          - bitcoin
+          - donations
+        operators: 
+          - Operator Name
+        purpose: Bitcoin Donations
+        created: YYYY-MM-DD
+        active: true
+        multisig: false
+        security: High
+        extraNotes: Extra information about the account
+        archived: false
+
+    -
+        name: Other Blockchain account
+        description: Description for this account
+        blockchain: Blockchain Name
+        network: Your Blockchain Network
+        address: YourAddressOnThisBlockchain
+        verification: https://link-to-proof-of-ownership
+        tags:
+          - otherBlockchainName
+          - payments
+        operators: 
+          - Operator Name
+        purpose: Payments
+        created: YYYY-MM-DD
+        active: false
+        multisig: true
+        security: Low
+        extraNotes: Extra information about the account
+        archived: true
+
+additionalInformation:
+    organizationProfile: https://link-to-organization-profile
+    projectOverview: https://link-to-project-overview
+
+updated: YYYY-MM-DD  # replace with last updated date in ISO 8601 format
+
 ```
 
 ## Quick Start
