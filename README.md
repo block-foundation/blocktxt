@@ -1,7 +1,7 @@
 <div align="right">
 
-  [![license](https://img.shields.io/github/license/block-foundation/blocktxt?color=green&label=license&style=flat-square)](LICENSE.md)
-  [![website](https://img.shields.io/website?color=blue&down_color=red&down_message=offline&label=website&style=flat-square&up_color=green&up_message=online&url=https%3A%2F%2Fwww.blocktxt.org)](https://www.blocktxt.org)
+[![GitHub License](https://img.shields.io/github/license/block-foundation/blocktxt?style=flat-square&logo=readthedocs&logoColor=FFFFFF&label=&labelColor=%23041B26&color=%23041B26&link=LICENSE)](https://github.com/block-foundation/blocktxt/blob/main/LICENSE)
+[![devContainer](https://img.shields.io/badge/Container-Remote?style=flat-square&logo=visualstudiocode&logoColor=%23FFFFFF&label=Remote&labelColor=%23041B26&color=%23041B26)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/block-foundation/blocktxt)
 
 </div>
 
@@ -15,45 +15,37 @@
 
 ---
 
-<p align="center">
-    <img src="https://raw.githubusercontent.com/block-foundation/blocktxt/master/res/logotype/blocktxt-logotype-transparant-blue.svg" width="33%" alt="blocktxt Logo">
-</p>
+<img align="right" width="75%" src="https://raw.githubusercontent.com/block-foundation/brand/master/src/image/repository_cover/block_foundation-structure-03-accent.jpg"  alt="Block Foundation Brand">
 
-<div align="center">
-  <a href="https://github.com/block-foundation/blocktxt/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Abug-suspected&template=bug_report.yml">Report a Bug</a>
-  |
-  <a href="https://github.com/block-foundation/blocktxt/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Afeature-request%2CHelp+wanted+%F0%9F%AA%A7&template=feature_request.yml">Request a Feature</a>
-  |
-  <a href="https://github.com/block-foundation/blocktxt/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Aquestion&template=question.yml">Ask a Question</a>
-  |
-  <a href="https://github.com/block-foundation/blocktxt/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Aenhancement&template=suggestion.yml">Make a Sugestion</a>
-  |
-  <a href="https://github.com/block-foundation/blocktxt/discussions">Start a Discussion</a>
-</div>
-<br/>
+### Contents
 
-
-<details open="open">
-<summary>Table of Contents</summary>
-
-- [About](#about)
+- [Introduction](#introduction)
 - [Quick Start](#quick-start)
-- [Authors](#authors)
-- [License](#license)
-- [Contributing](#contributing)
+- [Colophon](#colophon)
 
-</details>
+<br clear="both"/>
+
+---
+
+<div align="right">
+
+[![Report a Bug](https://img.shields.io/badge/Report%20a%20Bug-GitHub?style=flat-square&&logoColor=%23FFFFFF&color=%23E1E4E5)](https://github.com/block-foundation/blocktxt/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Abug-suspected&projects=&template=bug_report.yml)
+[![Request a Feature](https://img.shields.io/badge/Request%20a%20Feature-GitHub?style=flat-square&&logoColor=%23FFFFFF&color=%23E1E4E5)](https://github.com/block-foundation/blocktxt/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Abug-suspected&projects=&template=feature_request.yml)
+[![Ask a Question](https://img.shields.io/badge/Ask%20a%20Question-GitHub?style=flat-square&&logoColor=%23FFFFFF&color=%23E1E4E5)](https://github.com/block-foundation/blocktxt/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Abug-suspected&projects=&template=question.yml)
+[![Make a Suggestion](https://img.shields.io/badge/Make%20a%20Suggestion-GitHub?style=flat-square&&logoColor=%23FFFFFF&color=%23E1E4E5)](https://github.com/block-foundation/blocktxt/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Abug-suspected&projects=&template=suggestion.yml)
+[![Start a Discussion](https://img.shields.io/badge/Start%20a%20Discussion-GitHub?style=flat-square&&logoColor=%23FFFFFF&color=%23E1E4E5)](https://github.com/block-foundation/blocktxt/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Abug-suspected&projects=&template=discussion.yml)
+
+</div>
 
 ## Introduction
 
-The block.txt project, initiated by the Block Foundation, presents a revolutionary and standardized approach to sharing blockchain-related information associated with a website. By providing a structured, machine-readable format, the project opens doors for numerous applications in the ever-growing blockchain ecosystem.
+The `block.txt` project, initiated by the Block Foundation, presents a revolutionary and standardized approach to sharing blockchain-related information associated with a website. By providing a structured, machine-readable format, the project opens doors for numerous applications in the ever-growing blockchain ecosystem.
 
 As blockchain technology permeates into various sectors, the need for a standardized way to identify and share blockchain addresses on websites has become increasingly apparent. Websites involved in blockchain activities such as accepting digital payments, donations, or operating smart contracts often need to publicly declare their blockchain addresses. The block.txt project answers this call by providing a YAML-based format that outlines crucial information about a site's blockchain activities, in a way that's both human and machine-friendly.
 
 Whether you're a blockchain explorer trying to track down an address, a wallet software that needs to integrate a site's donation address, or a user curious about the blockchain activities of a site, block.txt aims to be the go-to solution. Furthermore, the project takes into consideration important aspects such as security, privacy, and standard web protocols to ensure a safe and seamless experience.
 
 Backed by the reputable Block Foundation and maintained by a community of open-source contributors, block.txt promises to be a significant step towards a more interconnected and accessible blockchain web. We invite you to be a part of this exciting journey.
-
 
 block.txt follows the [YAML](https://yaml.org/) syntax.
 
@@ -258,37 +250,39 @@ For the full list of of official **`block.txt`** logos, see the table below:
 | [<img align="center" src="https://raw.githubusercontent.com/block-foundation/blocktxt/master/res/logotype/blocktxt-logotype-white-blue.svg" width="200">](https://github.com/block-foundation/blocktxt/master/res/logotype/blocktxt-logotype-white-blue.svg) | [<img align="center" src="https://raw.githubusercontent.com/block-foundation/blocktxt/master/res/logotype/blocktxt-logotype-white-blue.png" width="200">](https://github.com/block-foundation/blocktxt/master/res/logotype/blocktxt-logotype-white-blue.png) |[<img align="center" src="https://raw.githubusercontent.com/block-foundation/blocktxt/master/res/logotype/blocktxt-logotype-white-blue.webp" width="200">](https://github.com/block-foundation/blocktxt/master/res/logotype/blocktxt-logotype-white-blue.webp) |
 | [<img align="center" src="https://raw.githubusercontent.com/block-foundation/blocktxt/master/res/logotype/blocktxt-logotype-white-gray.svg" width="200">](https://github.com/block-foundation/blocktxt/master/res/logotype/blocktxt-logotype-white-gray.svg) | [<img align="center" src="https://raw.githubusercontent.com/block-foundation/blocktxt/master/res/logotype/blocktxt-logotype-white-gray.png" width="200">](https://github.com/block-foundation/blocktxt/master/res/logotype/blocktxt-logotype-white-gray.png) |[<img align="center" src="https://raw.githubusercontent.com/block-foundation/blocktxt/master/res/logotype/blocktxt-logotype-white-gray.webp" width="200">](https://github.com/block-foundation/blocktxt/master/res/logotype/blocktxt-logotype-white-gray.webp) |
 
-## Development
+---
+
+## Colophon
 
 ### Authors
 
-**`block.txt`** is an open-source project by the **[Block Foundation](https://www.blockfoundation.io "Block Foundation website")**.
+This is an open-source project by the **[Block Foundation](https://www.blockfoundation.io "Block Foundation website")**.
 
 The Block Foundation mission is enabling architects to take back initiative and contribute in solving the mismatch in housing through blockchain technology. Therefore the Block Foundation seeks to unschackle the traditional constraints and construct middle ground between rent and the rigidity of traditional mortgages.
 
 website: [www.blockfoundation.io](https://www.blockfoundation.io "Block Foundation website")
 
-### Contributing
+### Development Resources
 
-We'd love for you to contribute and to make **`block.txt`** even better than it is today!
+#### Contributing
+
+We'd love for you to contribute and to make this project even better than it is today!
 Please refer to the [contribution guidelines](.github/CONTRIBUTING.md) for information.
 
-## Legal Information
+### Legal Information
 
-Please note that if you're implementing block.txt, it would be important to consider the security and privacy of the included addresses. In many cases, blockchain transactions are transparent and can be traced, so putting an address on a public website might expose information about the transactions and balances associated with that address.
+#### Copyright
 
-### Copyright
+Copyright &copy; 2023 [Stichting Block Foundation](https://www.blockfoundation.io/ "Block Foundation website"). All Rights Reserved.
 
-Copyright &copy; 2023 [Block Foundation](https://www.blockfoundation.io/ "Block Foundation website"). All Rights Reserved.
-
-### License
+#### License
 
 Except as otherwise noted, the content in this repository is licensed under the
 [Creative Commons Attribution 4.0 International (CC BY 4.0) License](https://creativecommons.org/licenses/by/4.0/), and
-code samples are licensed under the [MIT License](https://opensource.org/license/mit/).
+code samples are licensed under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0).
 
-Also see [LICENSE](https://github.com/block-foundation/community/blob/master/LICENSE) and [LICENSE-CODE](https://github.com/block-foundation/community/blob/master/LICENSE-CODE).
+Also see [LICENSE](https://github.com/block-foundation/community/blob/master/src/LICENSE) and [LICENSE-CODE](https://github.com/block-foundation/community/blob/master/src/LICENSE-CODE).
 
-### Disclaimer
+#### Disclaimer
 
 **THIS SOFTWARE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
