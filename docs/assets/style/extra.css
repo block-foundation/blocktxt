@@ -9,8 +9,8 @@
 .md-footer__inner {
     display: none;
 }
-[data-md-color-scheme="blockfoundation"] {
-    --md-primary-fg-color:        rgb(20, 100, 130);
+[data-md-color-scheme="block"] {
+    --md-primary-fg-color:        #001025;
     --md-primary-fg-color--light: #ffffff;
     --md-primary-fg-color--dark:  #001025;
 }
